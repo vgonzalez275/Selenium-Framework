@@ -1,0 +1,578 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#GHERKIN"
+      },
+      {
+        "line": 2,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 3,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 4,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 5,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 6,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 7,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 8,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 9,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 10,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 11,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 12,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 13,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 14,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 15,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 16,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 17,
+        "value": "#\"\""
+      },
+      {
+        "line": 18,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 19,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 21,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6535675100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.setup()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Check Home Page Title",
+        "description": "",
+        "id": "title-of-your-feature;check-home-page-title",
+        "after": [
+          {
+            "result": {
+              "duration": 975165100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1451880000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I open the home page",
+            "match": {
+              "location": "HomePageSteps.openHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 369759200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I check the home page title is correct",
+            "match": {
+              "location": "HomePageSteps.verifyHOmePageTitle()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@tag1"
+          },
+          {
+            "line": 24,
+            "name": "@tag3"
+          },
+          {
+            "line": 24,
+            "name": "@regression"
+          },
+          {
+            "line": 24,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3728531700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.setup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Check login Failure",
+        "description": "",
+        "id": "title-of-your-feature;check-login-failure",
+        "after": [
+          {
+            "result": {
+              "duration": 994398300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 845199400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I open the home page",
+            "match": {
+              "location": "HomePageSteps.openHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1010862100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I click on the account button",
+            "match": {
+              "location": "HomePageSteps.clickAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1323289200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I enter the username and password",
+            "match": {
+              "location": "HomePageSteps.loginWithCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 484699000,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat com.platform.project.commons.commons.check(commons.java:88)\r\n\tat com.platform.project.steps.HomePageSteps.checkLoginErrorMessage(HomePageSteps.java:72)\r\n\tat ✽.Then I check the login error message(homePage.feature:34)\r\n",
+              "status": "failed"
+            },
+            "line": 34,
+            "name": "I check the login error message",
+            "match": {
+              "location": "HomePageSteps.checkLoginErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 29,
+            "name": "@tag3"
+          },
+          {
+            "line": 29,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4008479100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.setup()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Check login Failure2",
+        "description": "",
+        "id": "title-of-your-feature;check-login-failure2",
+        "after": [
+          {
+            "result": {
+              "duration": 1003264100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 987723600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I open the home page",
+            "match": {
+              "location": "HomePageSteps.openHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 955450600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I click on the account button",
+            "match": {
+              "location": "HomePageSteps.clickAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1177355100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I enter the username \"xyz\" and password \"ghj\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xyz",
+                  "offset": 22
+                },
+                {
+                  "val": "ghj",
+                  "offset": 41
+                }
+              ],
+              "location": "HomePageSteps.loginWithCredentials2(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 440887600,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat com.platform.project.commons.commons.check(commons.java:88)\r\n\tat com.platform.project.steps.HomePageSteps.checkLoginErrorMessage(HomePageSteps.java:72)\r\n\tat ✽.Then I check the login error message(homePage.feature:41)\r\n",
+              "status": "failed"
+            },
+            "line": 41,
+            "name": "I check the login error message",
+            "match": {
+              "location": "HomePageSteps.checkLoginErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@regression"
+          },
+          {
+            "line": 36,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4079899700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.setup()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Check Multiple failed login",
+        "description": "",
+        "id": "title-of-your-feature;check-multiple-failed-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 999185900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1974780400,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I open the home page",
+            "match": {
+              "location": "HomePageSteps.openHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 849296300,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I click on the account button",
+            "match": {
+              "location": "HomePageSteps.clickAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1245320000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I enter username \u003cusrname\u003e and password iop",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cusrname\u003e",
+                  "offset": 17
+                },
+                {
+                  "val": "iop",
+                  "offset": 40
+                }
+              ],
+              "location": "HomePageSteps.loginWithCredentials3(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 430031400,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat com.platform.project.commons.commons.check(commons.java:88)\r\n\tat com.platform.project.steps.HomePageSteps.checkLoginErrorMessage(HomePageSteps.java:72)\r\n\tat ✽.Then I check the login error message(homePage.feature:48)\r\n",
+              "status": "failed"
+            },
+            "line": 48,
+            "name": "I check the login error message",
+            "match": {
+              "location": "HomePageSteps.checkLoginErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@tag"
+          },
+          {
+            "line": 43,
+            "name": "@tag2"
+          },
+          {
+            "line": 43,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3886311300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.setup()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Check Multiple failed login",
+        "description": "",
+        "id": "title-of-your-feature;check-multiple-failed-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 960583600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3028779100,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I open the home page",
+            "match": {
+              "location": "HomePageSteps.openHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 709679100,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I click on the account button",
+            "match": {
+              "location": "HomePageSteps.clickAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1114986200,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I enter username \u003cusrname\u003e and password jkl",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cusrname\u003e",
+                  "offset": 17
+                },
+                {
+                  "val": "jkl",
+                  "offset": 40
+                }
+              ],
+              "location": "HomePageSteps.loginWithCredentials3(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 423782300,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.fail(Assert.java:95)\r\n\tat com.platform.project.commons.commons.check(commons.java:88)\r\n\tat com.platform.project.steps.HomePageSteps.checkLoginErrorMessage(HomePageSteps.java:72)\r\n\tat ✽.Then I check the login error message(homePage.feature:48)\r\n",
+              "status": "failed"
+            },
+            "line": 48,
+            "name": "I check the login error message",
+            "match": {
+              "location": "HomePageSteps.checkLoginErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@tag"
+          },
+          {
+            "line": 43,
+            "name": "@tag2"
+          },
+          {
+            "line": 43,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "homePage.feature",
+    "tags": [
+      {
+        "line": 20,
+        "name": "@tag"
+      }
+    ]
+  }
+]

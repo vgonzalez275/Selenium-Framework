@@ -1,0 +1,73 @@
+2020-10-17 11:32:05,629, 0(ms), [com.platform.project.commons.ReadPropertyFile] - Value in property file for browser is chrome
+2020-10-17 11:32:05,636, 7(ms), [com.platform.project.commons.commons] - Environment value for browser is null
+2020-10-17 11:32:05,637, 8(ms), [com.platform.project.commons.WebDriverManager] - Windows OS detected
+2020-10-17 11:32:05,638, 9(ms), [com.platform.project.commons.WebDriverManager] - Chrome browser detected
+2020-10-17 11:32:12,078, 6449(ms), [com.platform.project.commons.WebDriverManager] - browser initialization successful.
+2020-10-17 11:32:12,597, 6968(ms), [com.platform.project.commons.ReadPropertyFile] - Value in property file for homePageURL is http://107.170.213.234/catalog/index.php
+2020-10-17 11:32:12,598, 6969(ms), [com.platform.project.pageObjects.HomePage] - Opening the home page URL: http://107.170.213.234/catalog/index.php
+2020-10-17 11:32:14,006, 8377(ms), [com.platform.project.commons.commons] - Element Welcome to iBusiness is visible
+2020-10-17 11:32:14,076, 8447(ms), [com.platform.project.commons.commons] - Element text is: Welcome to iBusiness
+2020-10-17 11:32:15,059, 9430(ms), [com.platform.project.commons.ReadPropertyFile] - Value in property file for browser is chrome
+2020-10-17 11:32:15,059, 9430(ms), [com.platform.project.commons.commons] - Environment value for browser is null
+2020-10-17 11:32:15,059, 9430(ms), [com.platform.project.commons.WebDriverManager] - Windows OS detected
+2020-10-17 11:32:15,059, 9430(ms), [com.platform.project.commons.WebDriverManager] - Chrome browser detected
+2020-10-17 11:32:18,786, 13157(ms), [com.platform.project.commons.WebDriverManager] - browser initialization successful.
+2020-10-17 11:32:18,791, 13162(ms), [com.platform.project.commons.ReadPropertyFile] - Value in property file for homePageURL is http://107.170.213.234/catalog/index.php
+2020-10-17 11:32:18,792, 13163(ms), [com.platform.project.pageObjects.HomePage] - Opening the home page URL: http://107.170.213.234/catalog/index.php
+2020-10-17 11:32:19,937, 14308(ms), [com.platform.project.commons.commons] - Element My Account is visible
+2020-10-17 11:32:20,023, 14394(ms), [com.platform.project.commons.commons] - Clicking on Sign In buttonMy Account
+2020-10-17 11:32:20,799, 15170(ms), [com.platform.project.commons.commons] - Entering text abc in element 
+2020-10-17 11:32:21,072, 15443(ms), [com.platform.project.commons.commons] - Entering text abc in element 
+2020-10-17 11:32:21,369, 15740(ms), [com.platform.project.commons.commons] - Element Sign In is visible
+2020-10-17 11:32:21,414, 15785(ms), [com.platform.project.commons.commons] - Clicking on Sign In buttonSign In
+2020-10-17 11:32:22,016, 16387(ms), [com.platform.project.pageObjects.LoginPage] - Error size is: 2
+2020-10-17 11:32:22,016, 16387(ms), [com.platform.project.commons.commons] - Error message list size does not match
+2020-10-17 11:32:22,463, 16834(ms), [com.platform.project.commons.commons] - Screenshot 2020-10-17_11.32.22_com.platform.project.steps.HomePageSteps_checkLoginErrorMessage.png taken
+2020-10-17 11:32:23,499, 17870(ms), [com.platform.project.commons.ReadPropertyFile] - Value in property file for browser is chrome
+2020-10-17 11:32:23,500, 17871(ms), [com.platform.project.commons.commons] - Environment value for browser is null
+2020-10-17 11:32:23,500, 17871(ms), [com.platform.project.commons.WebDriverManager] - Windows OS detected
+2020-10-17 11:32:23,501, 17872(ms), [com.platform.project.commons.WebDriverManager] - Chrome browser detected
+2020-10-17 11:32:27,504, 21875(ms), [com.platform.project.commons.WebDriverManager] - browser initialization successful.
+2020-10-17 11:32:27,511, 21882(ms), [com.platform.project.commons.ReadPropertyFile] - Value in property file for homePageURL is http://107.170.213.234/catalog/index.php
+2020-10-17 11:32:27,511, 21882(ms), [com.platform.project.pageObjects.HomePage] - Opening the home page URL: http://107.170.213.234/catalog/index.php
+2020-10-17 11:32:28,698, 23069(ms), [com.platform.project.commons.commons] - Element My Account is visible
+2020-10-17 11:32:28,752, 23123(ms), [com.platform.project.commons.commons] - Clicking on Sign In buttonMy Account
+2020-10-17 11:32:29,606, 23977(ms), [com.platform.project.commons.commons] - Entering text xyz in element 
+2020-10-17 11:32:29,885, 24256(ms), [com.platform.project.commons.commons] - Entering text ghj in element 
+2020-10-17 11:32:30,137, 24508(ms), [com.platform.project.commons.commons] - Element Sign In is visible
+2020-10-17 11:32:30,176, 24547(ms), [com.platform.project.commons.commons] - Clicking on Sign In buttonSign In
+2020-10-17 11:32:30,689, 25060(ms), [com.platform.project.pageObjects.LoginPage] - Error size is: 2
+2020-10-17 11:32:30,690, 25061(ms), [com.platform.project.commons.commons] - Error message list size does not match
+2020-10-17 11:32:31,084, 25455(ms), [com.platform.project.commons.commons] - Screenshot 2020-10-17_11.32.30_com.platform.project.steps.HomePageSteps_checkLoginErrorMessage.png taken
+2020-10-17 11:32:32,104, 26475(ms), [com.platform.project.commons.ReadPropertyFile] - Value in property file for browser is chrome
+2020-10-17 11:32:32,104, 26475(ms), [com.platform.project.commons.commons] - Environment value for browser is null
+2020-10-17 11:32:32,105, 26476(ms), [com.platform.project.commons.WebDriverManager] - Windows OS detected
+2020-10-17 11:32:32,105, 26476(ms), [com.platform.project.commons.WebDriverManager] - Chrome browser detected
+2020-10-17 11:32:36,181, 30552(ms), [com.platform.project.commons.WebDriverManager] - browser initialization successful.
+2020-10-17 11:32:36,187, 30558(ms), [com.platform.project.commons.ReadPropertyFile] - Value in property file for homePageURL is http://107.170.213.234/catalog/index.php
+2020-10-17 11:32:36,187, 30558(ms), [com.platform.project.pageObjects.HomePage] - Opening the home page URL: http://107.170.213.234/catalog/index.php
+2020-10-17 11:32:38,311, 32682(ms), [com.platform.project.commons.commons] - Element My Account is visible
+2020-10-17 11:32:38,360, 32731(ms), [com.platform.project.commons.commons] - Clicking on Sign In buttonMy Account
+2020-10-17 11:32:39,160, 33531(ms), [com.platform.project.commons.commons] - Entering text <usrname> in element 
+2020-10-17 11:32:39,443, 33814(ms), [com.platform.project.commons.commons] - Entering text iop in element 
+2020-10-17 11:32:39,744, 34115(ms), [com.platform.project.commons.commons] - Element Sign In is visible
+2020-10-17 11:32:39,791, 34162(ms), [com.platform.project.commons.commons] - Clicking on Sign In buttonSign In
+2020-10-17 11:32:40,303, 34674(ms), [com.platform.project.pageObjects.LoginPage] - Error size is: 2
+2020-10-17 11:32:40,303, 34674(ms), [com.platform.project.commons.commons] - Error message list size does not match
+2020-10-17 11:32:40,698, 35069(ms), [com.platform.project.commons.commons] - Screenshot 2020-10-17_11.32.40_com.platform.project.steps.HomePageSteps_checkLoginErrorMessage.png taken
+2020-10-17 11:32:41,707, 36078(ms), [com.platform.project.commons.ReadPropertyFile] - Value in property file for browser is chrome
+2020-10-17 11:32:41,707, 36078(ms), [com.platform.project.commons.commons] - Environment value for browser is null
+2020-10-17 11:32:41,708, 36079(ms), [com.platform.project.commons.WebDriverManager] - Windows OS detected
+2020-10-17 11:32:41,708, 36079(ms), [com.platform.project.commons.WebDriverManager] - Chrome browser detected
+2020-10-17 11:32:45,591, 39962(ms), [com.platform.project.commons.WebDriverManager] - browser initialization successful.
+2020-10-17 11:32:45,595, 39966(ms), [com.platform.project.commons.ReadPropertyFile] - Value in property file for homePageURL is http://107.170.213.234/catalog/index.php
+2020-10-17 11:32:45,595, 39966(ms), [com.platform.project.pageObjects.HomePage] - Opening the home page URL: http://107.170.213.234/catalog/index.php
+2020-10-17 11:32:48,750, 43121(ms), [com.platform.project.commons.commons] - Element My Account is visible
+2020-10-17 11:32:48,799, 43170(ms), [com.platform.project.commons.commons] - Clicking on Sign In buttonMy Account
+2020-10-17 11:32:49,420, 43791(ms), [com.platform.project.commons.commons] - Entering text <usrname> in element 
+2020-10-17 11:32:49,720, 44091(ms), [com.platform.project.commons.commons] - Entering text jkl in element 
+2020-10-17 11:32:50,001, 44372(ms), [com.platform.project.commons.commons] - Element Sign In is visible
+2020-10-17 11:32:50,044, 44415(ms), [com.platform.project.commons.commons] - Clicking on Sign In buttonSign In
+2020-10-17 11:32:50,490, 44861(ms), [com.platform.project.pageObjects.LoginPage] - Error size is: 2
+2020-10-17 11:32:50,491, 44862(ms), [com.platform.project.commons.commons] - Error message list size does not match
+2020-10-17 11:32:50,880, 45251(ms), [com.platform.project.commons.commons] - Screenshot 2020-10-17_11.32.50_com.platform.project.steps.HomePageSteps_checkLoginErrorMessage.png taken
